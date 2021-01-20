@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+      "jsx": "react",
+      "module": "esnext",
+      "noImplicitAny": true,
+      "outDir": "./build/",
+      "preserveConstEnums": true,
+      "removeComments": true, //remove for chunks with readable name
+      "sourceMap": true,
+      "target": "es5",
+      "esModuleInterop": true,
+      "moduleResolution": "node"
+    },
+    "include": [
+      "./src/**/**/*"
+    ],
+  }
