@@ -1,7 +1,7 @@
 import React, { Suspense } from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
-const Main = React.lazy(() => import(/* webpackChunkName: "main" */ './components/Main/'));
+const Main = React.lazy(() => import(/* webpackChunkName: "main" */ './components/Main'));
 
 const App = () => (
   <Suspense fallback={<div />}>
